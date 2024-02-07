@@ -29,4 +29,7 @@ urlpatterns = [
     path('auth',include("rest_framework.urls")),
     # path('app-api/', include("Store.urls")),
     path('', include("Account.urls")),
+    # djoser routes
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.jwt')),
 ]+static(settings.MEDIA_URL,document_root =settings.MEDIA_ROOT)
