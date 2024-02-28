@@ -1,3 +1,4 @@
-.vscode/
-.env/
-db.sqlite/
+venv/
+db.sqlite3
+*/bin/
+*/__pycache__
